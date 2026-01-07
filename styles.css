@@ -19,7 +19,8 @@
 .orange-color {
     color: #FD6E0A;
 }
-.btn{
+
+.btn {
     font-size: 20px;
     font-weight: bold;
     padding: 18px 35px;
@@ -27,12 +28,43 @@
     border-radius: 5px;
     background-color: #FD6E0A;
     color: #FFFFFF;
+    cursor: pointer;
+}
+
+.heading {
+
+    margin-bottom: 30px;
+    text-align: center;
+    max-width: 827px;
+    margin: 0 auto;
+}
+
+.heading h1 {
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+
+
+}
+
+.heading p {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+
+
 }
 
 /* main style */
 header {
-    background-color: #FFF8F3;
+
     padding-top: 50px;
+    background: url(images/header_bg.png), url(images/developer.png), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+    /* background-size:auto 518px; */
 }
 
 nav {
@@ -58,4 +90,94 @@ nav .menu {
     display: flex;
     gap: 51px;
     align-items: center;
+}
+
+#banner {
+    width: 83%;
+    max-width: 1332px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px 38px 0 230px;
+    gap: 39px;
+}
+
+.banner-contant {
+    max-width: 585px;
+}
+
+.banner-contant h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+
+}
+
+.banner-contant h1 {
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.banner-contant p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.banner-img {
+    max-width: 585px;
+    vertical-align: middle;
+
+}
+
+#about , #skills {
+    margin: 130px 230px;
+    max-width: 1140px;
+}
+
+.about-container {
+    padding: 131px 156px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    border: none;
+    align-items: center;
+   
+}
+
+
+   
+
+
+.about-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-card p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+
+}
+
+.info-card h4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
+}
+
+
+
+.skill-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+
 }
