@@ -149,10 +149,6 @@ nav .menu {
    
 }
 
-
-   
-
-
 .about-info {
     display: flex;
     justify-content: space-between;
@@ -172,12 +168,35 @@ nav .menu {
     color: #474747;
 }
 
-
-
 .skill-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 24px;
 
+}
+.skill-card {
+    max-width: 267px;
+
+    padding: 30px;
+   
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+
+}
+.skill-card img {
+ max-width: 44px;
+ margin-bottom: 30px;
+}
+.skill-card h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #181818;
+}
+.skill-card p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
 }
